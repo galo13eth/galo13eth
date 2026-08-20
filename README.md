@@ -98,8 +98,8 @@ past year across three systems:
 
 #### Elsewhere
 
-[Portfolio](https://lucasfranca-portfolio-production.up.railway.app) ·
+[Portfolio](https://lucasfranca.dev) ·
 [LinkedIn](https://linkedin.com/in/lucasagfranca) ·
-[Web3 résumé](https://lucasfranca-portfolio-production.up.railway.app/resume/Lucas_Franca_Web3_Resume.pdf) ·
-[AI-platforms résumé](https://lucasfranca-portfolio-production.up.railway.app/resume/Lucas_Franca_AI_Agent_Platforms_Resume.pdf) ·
+[Web3 résumé](https://lucasfranca.dev/resume/Lucas_Franca_Web3_Resume.pdf) ·
+[AI-platforms résumé](https://lucasfranca.dev/resume/Lucas_Franca_AI_Agent_Platforms_Resume.pdf) ·
 lucasagfranca@gmail.com
