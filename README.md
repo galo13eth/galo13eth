@@ -63,8 +63,15 @@ past year across three systems:
   requests, and pause for human input. Next.js/PostgreSQL control plane,
   zero-inbound Go runners, journal/replay crash recovery.
 
-#### Earlier (also private code)
+#### Beyond Agora (also private code)
 
+- **Lifeverse** (2023–present · DAO council + fractional lead engineering) —
+  Arbitrum gaming ecosystem in the Treasure/MAGIC community: built Colosseum
+  of Phanes (Remix/React, a deterministic battle simulator with determinism
+  tests, SSE notifications, wallet auth, Fly.io), contracts for soulbound
+  ERC-721s with onchain metadata, commit-reveal randomness, and ERC-20 reward
+  claims, The Graph indexers, a Snapshot voting strategy, and the Python
+  pipeline behind a 4,686-token art collection.
 - **Sekai Glory** (2024–2025) — led full-stack delivery of a production
   trading-card game on Ronin: a Next.js PWA in five languages, 16
   UUPS-upgradeable ERC-721A/ERC-1155 contracts with 20 Forge test suites, a
