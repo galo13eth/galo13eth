@@ -5,7 +5,8 @@ onchain data, Go and TypeScript services, React frontends — as one production
 system. Currently at [Agora](https://www.agora.xyz), building governance
 infrastructure for **Optimism, ENS, and Uniswap**.
 
-**AI agent platforms are the other half of my work.** I built TakeAIt, a
+**As AI reshapes how software gets built, I've been leaning into agent
+platforms.** I built TakeAIt, a
 managed platform where coding agents are first-class users (below), and I
 develop agent-first: Claude Code, Codex, and pi do much of my implementation
 work — driven through tickets, isolated workspaces, and PR review, the
