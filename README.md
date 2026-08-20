@@ -72,6 +72,12 @@ past year across three systems:
 
 #### Beyond Agora (also private code)
 
+- **[Pingou](https://pingou.xyz)** (solo · in closed pilot) — a paid-alerts
+  platform for Brazilian streamers, built end to end: Pix and card checkout,
+  an SSE-driven OBS overlay with queue and replay semantics, curated AI
+  voices, and a streamer dashboard. ~150k-LOC TypeScript monorepo — Fastify
+  SSR with an in-house zero-dependency UI layer, PostgreSQL/Drizzle, an
+  outbox-backed job queue, six-provider OAuth, ~1,900 tests, OpenTelemetry.
 - **Lifeverse** (2023–present · DAO council + fractional lead engineering) —
   Arbitrum gaming ecosystem in the Treasure/MAGIC community: built Colosseum
   of Phanes (Remix/React, a deterministic battle simulator with determinism
