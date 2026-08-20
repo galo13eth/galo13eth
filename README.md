@@ -63,6 +63,25 @@ past year across three systems:
   requests, and pause for human input. Next.js/PostgreSQL control plane,
   zero-inbound Go runners, journal/replay crash recovery.
 
+#### Earlier (also private code)
+
+- **Sekai Glory** (2024–2025) — led full-stack delivery of a production
+  trading-card game on Ronin: a Next.js PWA in five languages, 16
+  UUPS-upgradeable ERC-721A/ERC-1155 contracts with 20 Forge test suites, a
+  13-datasource subgraph, real-time PvP matchmaking, and the live migration
+  from Blast to Ronin.
+- **Realm** (2023–2024) — fully onchain game ecosystem on Arbitrum One,
+  delivered across a Solidity monorepo spanning 55 game domains (176
+  contracts live on mainnet), three subgraphs indexing 116 contracts, the
+  Next.js player app, an AWS Lambda ARB-rewards engine, and
+  Terraform-managed infrastructure.
+- **Federal District Court of Auditors (TCDF)** (2014–present) — twelve years
+  of public-sector systems supporting audits of government spending: leading
+  committer on the Court's electronic case-tracking, accounts-rendering, and
+  official-gazette platforms (Symfony/API Platform + Vue/TypeScript on SQL
+  Server, Docker/Kubernetes), plus ChatTCDF, the Court's internal RAG
+  chatbot.
+
 #### Elsewhere
 
 [Portfolio](https://lucasfranca-portfolio-production.up.railway.app) ·
