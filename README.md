@@ -3,8 +3,7 @@
 I ship wallet-connected products end to end — Solidity contracts, indexed
 onchain data, Go and TypeScript services, React frontends — as one production
 system. Currently at [Agora](https://www.agora.xyz), building governance
-infrastructure for **Optimism, ENS, and Uniswap**, and TakeAIt, a managed
-coding-agent platform on GCP with isolated Go runners.
+infrastructure for **Optimism, ENS, and Uniswap**.
 
 12+ years in software · 4+ years shipping Web3 · Ethereum, Optimism,
 Arbitrum, Ronin
@@ -42,6 +41,27 @@ A few worth reading:
 - **Go, upstream (under review)** — authenticating incoming Telegram webhooks
   with registered secrets and constant-time comparison.
   [superplane#6702](https://github.com/superplanehq/superplane/pull/6702)
+
+#### Production systems (private repos)
+
+Most of my output lives in Agora's internal repos — 270 merged PRs in the
+past year across three systems:
+
+- **[holders.vote](https://holders.vote)** — a web3 take on Reddit:
+  communities anchored to ENS/HNS names, where voting weight comes from
+  onchain holdings. I hardened authorization boundaries and webhook
+  verification, integrated the Notifications Hub, and built an EIP-712
+  trust-graph vouching flow with score-driven content ranking.
+  *(live product, private code)*
+- **Notifications Hub** — the five-channel notification platform (email,
+  Discord, Slack, Telegram, browser push) behind Agora's governance products:
+  channel verification, per-event preferences, retries, deduplication,
+  delivery analytics.
+  [write-up](https://www.agora.xyz/blogs/9-notification-hub)
+- **TakeAIt** — a managed coding-agent platform where Claude Code and Codex
+  agents claim tickets, execute in isolated GCP workspaces, open pull
+  requests, and pause for human input. Next.js/PostgreSQL control plane,
+  zero-inbound Go runners, journal/replay crash recovery.
 
 #### Elsewhere
 
