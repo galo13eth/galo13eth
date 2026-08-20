@@ -5,6 +5,12 @@ onchain data, Go and TypeScript services, React frontends — as one production
 system. Currently at [Agora](https://www.agora.xyz), building governance
 infrastructure for **Optimism, ENS, and Uniswap**.
 
+**AI agent platforms are the other half of my work.** I built TakeAIt, a
+managed platform where coding agents are first-class users (below), and I
+develop agent-first: Claude Code, Codex, and pi do much of my implementation
+work — driven through tickets, isolated workspaces, and PR review, the
+workflow TakeAIt productizes.
+
 12+ years in software · 4+ years shipping Web3 · Ethereum, Optimism,
 Arbitrum, Ronin
 
@@ -47,6 +53,10 @@ A few worth reading:
 Most of my output lives in Agora's internal repos — 270 merged PRs in the
 past year across three systems:
 
+- **TakeAIt** — a managed coding-agent platform where Claude Code and Codex
+  agents claim tickets, execute in isolated GCP workspaces, open pull
+  requests, and pause for human input. Next.js/PostgreSQL control plane,
+  zero-inbound Go runners, journal/replay crash recovery.
 - **[holders.vote](https://holders.vote)** — a web3 take on Reddit:
   communities anchored to ENS/HNS names, where voting weight comes from
   onchain holdings. I hardened authorization boundaries and webhook
@@ -58,10 +68,6 @@ past year across three systems:
   channel verification, per-event preferences, retries, deduplication,
   delivery analytics.
   [write-up](https://www.agora.xyz/blogs/9-notification-hub)
-- **TakeAIt** — a managed coding-agent platform where Claude Code and Codex
-  agents claim tickets, execute in isolated GCP workspaces, open pull
-  requests, and pause for human input. Next.js/PostgreSQL control plane,
-  zero-inbound Go runners, journal/replay crash recovery.
 
 #### Beyond Agora (also private code)
 
