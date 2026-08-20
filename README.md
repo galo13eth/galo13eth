@@ -1,4 +1,4 @@
-### Lucas Franca — Senior Web3 Product Engineer
+### Lucas Franca — Senior Web3 Product Engineer · AI Agent Platforms
 
 I ship wallet-connected products end to end — Solidity contracts, indexed
 onchain data, Go and TypeScript services, React frontends — as one production
