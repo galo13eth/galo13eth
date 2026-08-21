@@ -15,20 +15,23 @@ Code, Codex, and pi execute scoped tickets inside isolated workspaces, with
 durable state, review-gated pull requests, and human supervision — the
 workflow TakeAIt productizes.
 
-#### Selected public engineering
+#### Original open-source engineering
 
-Original systems plus 90 merged PRs across Agora's public repos
+**[evm-migration-lab](https://github.com/galo13eth/evm-migration-lab)** —
+a deterministic Rust snapshot pipeline, narrowly scoped Solidity claim
+contracts, and a fail-closed React verification app for ERC-721/1155 state
+migration. Public Sepolia → Base Sepolia canary, explicit trust model, and
+cross-language end-to-end evidence.
+[Live app](https://web-production-fab71.up.railway.app) ·
+[v0.1.0](https://github.com/galo13eth/evm-migration-lab/releases/tag/v0.1.0)
+
+#### Selected production engineering
+
+90+ merged PRs across Agora's public repos
 ([agora-next](https://github.com/voteagora/agora-next/pulls?q=is%3Apr+author%3Agalo13eth+is%3Amerged),
 [op-atlas](https://github.com/voteagora/op-atlas/pulls?q=is%3Apr+author%3Agalo13eth+is%3Amerged)).
 A few worth reading:
 
-- **[evm-migration-lab](https://github.com/galo13eth/evm-migration-lab)** —
-  a deterministic Rust snapshot pipeline, narrowly scoped Solidity claim
-  contracts, and a fail-closed React verification app for ERC-721/1155 state
-  migration. Public Sepolia → Base Sepolia canary, explicit trust model, and
-  cross-language end-to-end evidence.
-  [Live app](https://web-production-fab71.up.railway.app) ·
-  [v0.1.0](https://github.com/galo13eth/evm-migration-lab/releases/tag/v0.1.0)
 - **Embedded wallets without breaking existing Web3 flows** — introduced
   Privy email/social login and embedded wallets for one tenant while
   preserving ConnectKit, Safe, SIWE, and gasless EIP-712 voting and
@@ -78,16 +81,16 @@ Most of my recent engineering output lives in Agora's private repositories:
 
 - **[Pingou](https://pingou.xyz)** (solo · in closed pilot) — paid-alerts
   platform for Brazilian streamers, built end to end: Pix and card checkout,
-  SSE-driven OBS overlay, ~150k-LOC TypeScript monorepo with ~1,900 tests.
+  asynchronous content generation, SSE-driven OBS delivery, real-time
+  controls, and automated tests.
 - **Lifeverse** (2023–present · DAO council + fractional lead) — Arbitrum
   gaming ecosystem: deterministic battle simulator, soulbound ERC-721s with
   onchain metadata, commit-reveal randomness, indexers, Snapshot strategy.
 - **Sekai Glory** (2024–2025) — led a production trading-card game on Ronin:
   16 UUPS-upgradeable ERC-721A/ERC-1155 contracts, real-time PvP
   matchmaking, five languages, live migration from Blast to Ronin.
-- **Realm** (2023–2024) — fully onchain game on Arbitrum One: 55 game
-  domains, 176 contracts live on mainnet, three subgraphs, an AWS rewards
-  engine, Terraform infra.
+- **Realm** (2023–2024) — fully onchain game on Arbitrum One: more than 50
+  game domains, three subgraphs, an AWS rewards engine, and Terraform infra.
 - **TCDF, Brazil's Federal District Court of Auditors** (2014–present ·
   long-term part-time) — twelve years of audit systems (Symfony/API Platform,
   Vue/TypeScript, SQL Server, Kubernetes), plus ChatTCDF, the Court's
@@ -99,4 +102,5 @@ Most of my recent engineering output lives in Agora's private repositories:
 [LinkedIn](https://linkedin.com/in/lucasagfranca) ·
 [Web3 résumé](https://lucasfranca.dev/resume/Lucas_Franca_Web3_Resume.pdf) ·
 [AI-platforms résumé](https://lucasfranca.dev/resume/Lucas_Franca_AI_Agent_Platforms_Resume.pdf) ·
+[Backend & product-systems résumé](https://lucasfranca.dev/resume/Lucas_Franca_Senior_Software_Engineer_Resume.pdf) ·
 lucasagfranca@gmail.com
